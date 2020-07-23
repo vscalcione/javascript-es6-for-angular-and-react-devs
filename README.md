@@ -9,3 +9,7 @@ All the product code was carried out following a course "<b>Javascript ES6: mini
 - Template literals
 - Short object syntax
 - Array and Object Destructuring: nested props and rename / short objects syntax
+- Array spread operator (clone, merge, modify)
+- Object spread operator vs Object assign
+- Arrow functions, Array map, Array filter, Array find/findIndex
+- Immutability in ES6/React/Angular/Redux
