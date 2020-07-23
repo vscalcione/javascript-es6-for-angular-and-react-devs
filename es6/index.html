@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo ES6</title>
+        <script type="module" src="utility.js"></script>
+        <script type="module" src="main.js"></script>
+    </head>
+    <body>
+        <div id="output"></div>
+        <script type="text/javascript">
+            console.log("hi");
+            document.querySelector('#output').innerHTML = 'Hi';
+            const a = 1;
+            console.log(a);
+
+            class MyClass {
+                hello() {
+                    console.log('Hi user');
+                }
+            }
+            const greeting = new MyClass();
+            greeting.hello();
+        </script>
+        
+    </body>
+</html>
