@@ -59,7 +59,7 @@ const arraySpreadOperator = () => {
     console.log(merged);
 }
 
-// arrayFilter();
-// arrayFind();
-// arrayMap();
+arrayFilter();
+arrayFind();
+arrayMap();
 arraySpreadOperator();

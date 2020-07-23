@@ -58,5 +58,5 @@ const destructuringObject = () => {
 
 }
 
-// destructuringArray();
+destructuringArray();
 destructuringObject();
