@@ -1,14 +1,13 @@
 class Greeting {
     text = 'Hi';
     constructor() {
-        console.log('constructor', this.text);
-        setTimeout(function(){
+        setTimeout(() => {
             console.log(this.text);
         }, 2000);
     }
 
     hello (value){
-        console.log(this.text + '' + value)
+        console.log(this.text + ' ' + value)
     }
 
 }
